@@ -1,0 +1,6 @@
+:root {
+  --index-color: #ffc9cd;
+  --loopy-color: #e16c6f;
+  --horizontal-space: 25px;
+  --main-border: 1px solid var(--loopy-color);
+}

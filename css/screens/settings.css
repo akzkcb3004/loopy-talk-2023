@@ -1,0 +1,38 @@
+.settings-list:first-child {
+  border-bottom: var(--main-border);
+  margin-bottom: 30px;
+}
+
+.settings-setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+}
+
+.settings-setting__last {
+  border-bottom: none;
+  padding-bottom: 50px;
+}
+
+.settings-setting__column {
+  display: flex;
+  align-items: center;
+}
+
+.settings-setting__column .badge {
+  margin-left: 10px;
+  font-size: 15px;
+}
+
+.settings-setting__column i {
+  margin-right: 15px;
+  font-size: 23px;
+  color: #2e363d;
+}
+
+.settings-setting__column:last-child {
+  opacity: 0.5;
+}

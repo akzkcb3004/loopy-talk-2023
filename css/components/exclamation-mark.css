@@ -1,0 +1,14 @@
+.exclamation-mark {
+  border: 2px solid var(--loopy-color);
+  color: var(--loopy-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  padding: 3px;
+  margin-left: 5px;
+}
